@@ -43,9 +43,27 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin:'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin:'right' });
 
 const typed=new Typed('.multiple-text',{
-    strings:['Frontend Developer','Good Listener'],
+    strings:['Frontend Developer','Web Designer','Problem Solver'],
     typeSpeed:100,
     backSpeed: 100,
     backDelay:1000,
     loop:true
+});
+
+ScrollReveal().reveal('.education-content', {
+  duration: 900,
+  distance: '40px',
+  origin: 'left',
+  interval: 200,
+  easing: 'ease-in-out',
+  reset: false
+});
+
+ScrollReveal().reveal('.skills-column', {
+  duration: 900,
+  distance: '40px',
+  origin: 'right',
+  interval: 200,
+  easing: 'ease-in-out',
+  reset: false
 });
